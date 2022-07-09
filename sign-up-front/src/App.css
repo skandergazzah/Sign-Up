@@ -1,0 +1,88 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/kitesurf.jpg');
+    /* background-size: contain; */
+    background-size: cover;
+}
+
+.form{
+    width:400px;
+}
+
+.champ{
+    display:grid;
+}
+
+.title{
+    text-shadow: 2px 2px 5px #ee0094 ;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 2em;
+}
+
+.input{
+    border-radius: 6px !important;
+    border:1px solid #3b2a50 !important;
+    margin:30px;
+    height:40px; 
+    background-color: #2622211a;
+}
+input::placeholder{
+    color: rgb(255, 211, 196);
+    opacity:9 ;
+}
+.placebtn{
+    margin:30px;
+}
+
+.btn{
+    cursor:pointer;
+    display: inline-block; 
+    position: relative;
+    transition: 0.4s;
+    /* } mawjouda fil index.css fil shop project */
+    padding: 12 px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(15, 139, 248);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    height: 55px;
+    width: 171px;
+
+}
+
+.btn:after{
+    content:'\00bb';
+    position:absolute;
+    opacity: 0;
+    top: 0;
+    right:-20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    padding-right: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn:hover:after {
+    opacity: 1;
+    right: 0;
+  }
+  h1{
+      /* } mawjouda fil index.css fil shop project */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
